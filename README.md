@@ -32,3 +32,11 @@ Test:
         - print ("Hello World :)")
     - python hello.py
     
+Installing node.js with apt from default repositories:
+    - sudo apt install nodejs
+    - sudo apt install npm
+
+Test:
+    - npm -v
+
+
